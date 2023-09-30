@@ -1,0 +1,17 @@
+body {
+    background-color: fuchsia;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+}
