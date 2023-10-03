@@ -11,4 +11,32 @@ a {
 fieldset {
     background-color: honeydew;
 }
+
+h1 {
+    animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow {
+    0% {
+      color: violet;
+    }
+    16.666% {
+      color: indigo;
+    }
+    33.333% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    66.666% {
+      color: yellow;
+    }
+    83.333% {
+      color: orange;
+    }
+    100% {
+      color: red;
+    }
+  }
   
