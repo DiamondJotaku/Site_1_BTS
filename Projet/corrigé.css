@@ -5,6 +5,7 @@ body {
 
 fieldset {
     background-color: honeydew;
+    margin-top: 10px;
 }
 
 .true {
