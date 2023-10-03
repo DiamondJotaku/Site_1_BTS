@@ -1,0 +1,16 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+fieldset {
+    background-color: honeydew;
+}
+
+.true {
+    color: green;
+}
+
+label {
+    color: red;
+}

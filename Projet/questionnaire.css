@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+a {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+fieldset {
+    background-color: honeydew;
+}
+  
