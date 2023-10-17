@@ -29,7 +29,7 @@ function multiplication() {
 }
 
 function division() {
-    t3.value = Number(t1.value) / Number(t2.value) /  Number(t5.value);
+    t3.value = t5.value == "" ? Number(t1.value) / Number(t2.value) : Number(t1.value) / Number(t2.value) /  Number(t5.value);
 }
 
 function parite() {
