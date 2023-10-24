@@ -1,22 +1,25 @@
 body {
-    background-color: green;
+    transition: background-color 2s;
 }
 
 table {
-    background-color: blue;
     width: 100%;
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
 }
 
 div {
     height: 25px;
     text-align: center;
-    background-color: white;
     border: 2px solid black;
     border-radius: 50px;
     color: black;
     padding-top: 3px;
     font-family: verdana;
+    color: white;
 }
+
 
 input, button {
     text-align: center;
@@ -29,4 +32,23 @@ input, button {
     margin: 10px;
     font-family: verdana;
     padding: 10px;
+}
+
+button {
+    background: radial-gradient(circle, red, orange, yellow, green, blue);
+    background-size: 500% 500%;
+    animation: gradientAnimation 2s ease infinite;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
