@@ -1,0 +1,37 @@
+body {
+    transition: background-color 2s;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.reduc {
+    width: 50%;
+}
+
+.coteàcote {
+    display: inline-block;
+    width: 49%;
+}
+
+.coteàcote:hover {
+    transform: scale(1.2);
+}
+
+@keyframes multicolorBorder {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: orange; }
+    100% { border-color: purple; }
+}
+
+.multicolor-border {
+    border: 5px solid;
+    border-image: linear-gradient(0deg, red, blue, green, orange, purple) 1;
+    border-image-slice: 1;
+    animation: multicolorBorder 5s linear infinite;
+  }
+
