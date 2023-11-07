@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Index_style.css" rel="stylesheet">
-    <title>Bienvenue</title>
+    <title>Menu responsive déroulant HTML / CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="menu-deroulant-responsive.css">
 </head>
 <body>
-    <h1>SOMMAIRE</h1>
+    <nav>
+        <label for="menu-mobile" class="menu-mobile">Menu</label>
+        <input type="checkbox" id="menu-mobile" role="button">
+        <ul>
+            <li class="menu-html"><a href="#">HTML & CSS</a>
+                <ul class="submenu">
+                    <li><a href="Site/Page_1.html">Acceuil</a></li>
+                    <li><a href="Site/Page_2.html">Tableaux</a></li>
+                    <li><a href="Site/Page_3.html">Liste d'Article</a></li>
+                    <li><a href="Site/Identification.html">Identification</a></li>
+                    <li><a href="Site/Formulaire.html">Formulaire</a></li>
+                    <li><a href="Site/Formulaire_exo.html">Formulaire exo</a></li>
+                    <li><a href="TP3/TP3.html">BTS Programmation</a></li>
+                    <li><a href="Site/TD4.html">Carte de visite</a></li>
+                </ul>
+            </li>
+            <li class="menu-js"><a href="#">Javascript</a>
+                <ul class="submenu">
+                    <li><a href="TP7/TP7.html">Initiation JS</a></li>
+                    <li><a href="TP7_real/TP7.html">Calculatrice</a></li>
+                    <li><a href="Site/Moyenne.html">Moyenne</a></li>
+                    <li><a href="Projet/Mission 3/Fature.html">Facture</a></li>
+                </ul>
+            </li>
+            <li class="menu-css"><a href="#">Base de données</a>
+            </li>
+            <li class="menu-html"><a href="#">PHP</a>
+            </li>
+            <li class="menu-js"><a href="#">Mission</a>
+                <ul class="submenu">
+                    <li><a href="Projet/questionnaire.html">Questionnaire</a></li>
+                    <li><a href="Projet/CV.html">CV</a></li>
+                </ul>
+            </li>
+            <li class="menu-css"><a href="#">Certification</a>
+                <ul class="submenu">
+                    <li><a href="Site/Certificat.html">Certificat</a></li>
+                </ul>
+            </li>
+        </ul>
+</nav>
 
-    <ul>
-        <li><a href="Site/Page_1.html">Page 1</a></li>
-        <li><a href="Site/Page_2.html">Page 2</a></li>
-        <li><a href="Site/Page_3.html">Page 3</a></li>
-        <li><a href="Site/Identification.html">Identification</a></li>
-        <li><a href="Site/Formulaire.html">Formulaire</a></li>
-        <li><a href="Site/Formulaire_exo.html">Formulaire exo</a></li>
-        <li><a href="TP3/TP3.html">TP3</a></li>
-        <li><a href="Site/TD4.html">TD4</a></li>
-        <li><a href="Projet/questionnaire.html">Questionnaire</a></li>
-        <li><a href="Projet/CV.html">CV</a></li>
-        <li><a href="TP7/TP7.html">TP6</a></li>
-        <li><a href="TP7_real/TP7.html">Calculatrice</a></li>
-        <li><a href="Projet/Mission 3/Fature.html">Facture</a></li>
-        <li><a href="Site/Moyenne.html">Moyenne</a></li>
-        <li><a href="Site/Certificat.html">Certificat</a></li>
-    </ul> 
-    <br>
-
-    <hr>
-
-    <center>
-    <img src="img/Bienvenue.gif">
-</center>
+<img width="100%" height="100%" src="img/honkai.gif"></img>
 </body>
 </html>
